@@ -1,0 +1,54 @@
+@font-face {
+  font-family: “Biko”;
+  font-weight: normal;
+  font-style: normal;
+  }
+html body {
+  font-family: Book Antiqua;
+  font-size: 12pt;
+}
+div.title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2em;
+  font-family: Biko;
+}
+div.edition {
+  margin: auto;
+  text-align: justify;
+  font-size: 75%;
+  width: 95%;
+}
+div.meta {
+font-size: 80%;
+width: 85%;
+margin: auto;
+text-align: justify;
+}
+div.bottom {
+  vertical-align: bottom;
+  width: 50%;
+  margin: auto;
+}
+p {
+  text-indent: 0;
+}
+p.title {
+  color: #505;
+  font-size: 250%;
+  font-variant: small-caps;
+  margin: 0 0 0 0;
+}
+p.subtitle {
+  font-size: 125%;
+  font-style: italic;
+}
+p.bottom {
+  font-size: 10pt;
+  line-height: 0.85;
+}
+p.author {
+  font-size: 150%;
+  margin-top: -1em;
+  color: #cab9eb;
+}

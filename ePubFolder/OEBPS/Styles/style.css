@@ -1,0 +1,25 @@
+@page {
+  margin: 5mm;
+  }
+html body {
+  margin: 0;
+  font-family: Book Antiqua;
+  font-size: 12pt;
+}
+p {
+  text-indent: 1.5em;
+  line-height: 1.25em;
+  margin-bottom: 0;
+  margin-left: 14px;
+  margin-right: 14px;
+  text-align: justify;
+}
+p.initial {
+  margin-top: 8em;
+  margin-bottom: 4em;
+  text-align: center;
+  font-size: 150%;
+}
+em {
+  font-style: italic;
+}

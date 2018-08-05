@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title> $title </dc:title>
+    <dc:creator opf:role="aut" opf:file-as="F., Misty">Misty F.</dc:creator>
+    <dc:description>
+.</dc:description>
+    <dc:date>2018-08-01</dc:date>
+    <dc:identifier id="BookId" opf:scheme="UUID"> $bookid </dc:identifier>
+    <dc:publisher>Misty F. Fiction</dc:publisher>
+    <dc:language>en</dc:language>
+    <meta name="cover" content="cover" />
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification"> $posted </dc:date>
+  </metadata>
+  <manifest>
+    <item id="Title.xhtml" href="Text/Title.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Story.xhtml" href="Text/Story.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="title.css" href="Styles/title.css" media-type="text/css"/>
+    <item id="cover" href="Images/001-Cover.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Title.xhtml"/>
+    <itemref idref="Story.xhtml"/>
+  </spine>
+  <guide>
+  </guide>
+</package>
